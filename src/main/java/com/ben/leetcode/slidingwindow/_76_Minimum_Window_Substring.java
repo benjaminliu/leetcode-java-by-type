@@ -1,7 +1,7 @@
 package com.ben.leetcode.slidingwindow;
 
 /**
- * need more care
+ * hard need more care
  */
 public class _76_Minimum_Window_Substring {
     static class Solution {

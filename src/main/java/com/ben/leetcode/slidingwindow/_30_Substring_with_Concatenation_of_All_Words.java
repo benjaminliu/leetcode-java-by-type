@@ -5,13 +5,15 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+//hard
 public class _30_Substring_with_Concatenation_of_All_Words {
+
     static class Solution {
         public List<Integer> findSubstring(String s, String[] words) {
             List<Integer> res = new ArrayList<Integer>();
             if (s.length() == 0)
                 return res;
-            if(words.length ==0)
+            if (words.length == 0)
                 return res;
             int n = s.length();
             int num = words.length;

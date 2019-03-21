@@ -3,6 +3,7 @@ package com.ben.leetcode.slidingwindow;
 import java.util.HashMap;
 import java.util.Map;
 
+//hard
 public class _992_Subarrays_with_K_Different_Integers {
     static class Solution {
         public int subarraysWithKDistinct(int[] A, int K) {
